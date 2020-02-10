@@ -1,0 +1,98 @@
+object NaeherungswerteQuadratwurzelnForm: TNaeherungswerteQuadratwurzelnForm
+  Left = 192
+  Height = 217
+  Top = 455
+  Width = 384
+  Caption = 'NaeherungswerteQuadratwurzelnForm'
+  ClientHeight = 217
+  ClientWidth = 384
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object AnzeigeLabel: TLabel
+    Left = 19
+    Height = 18
+    Top = 22
+    Width = 265
+    Caption = 'Bitte hier den Radikant eingeben:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object AusgabeLabel: TLabel
+    Left = 19
+    Height = 1
+    Top = 72
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object RadikantEdit: TEdit
+    Left = 296
+    Height = 23
+    Top = 22
+    Width = 80
+    TabOrder = 0
+  end
+  object Anzeige2Label: TLabel
+    Left = 19
+    Height = 18
+    Top = 48
+    Width = 101
+    Caption = 'Genauigkeit:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object GenauigkeitEdit: TEdit
+    Left = 139
+    Height = 23
+    Top = 48
+    Width = 80
+    TabOrder = 1
+    Text = '5'
+  end
+  object StartButton: TButton
+    Left = 281
+    Height = 25
+    Top = 180
+    Width = 75
+    Caption = 'LOS!'
+    OnClick = StartButtonClick
+    TabOrder = 2
+  end
+  object ClearButton: TButton
+    Left = 192
+    Height = 25
+    Top = 180
+    Width = 75
+    Caption = 'Clear'
+    OnClick = ClearButtonClick
+    TabOrder = 3
+  end
+  object Ausgabe2Label: TLabel
+    Left = 19
+    Height = 1
+    Top = 112
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end

@@ -1,0 +1,88 @@
+{-----------------------------------------------------------------}
+{Quadratfunktionen Zusatz Form	  	               26.03.2018 }
+{Leo Michel und Lucas Kaldenhoff                                  }
+{Gruppe A12     						  }
+{Klasse Eb Informatik Wendorff                                    }
+{Übung: Mathematische Rechnungen im Programm                	  }
+{-----------------------------------------------------------------}
+
+unit quadratfunktionfunit;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+
+type
+
+  { TquadratfunktionForm }
+
+  TquadratfunktionForm = class(TForm)
+    BeschreibungLabel: TLabel;
+    Beschreibung2Label: TLabel;
+    xLabel: TLabel;
+    yLabel: TLabel;
+    startButton: TButton;
+    ClearButton: TButton;
+    aEdit: TEdit;
+    bEdit: TEdit;
+    cEdit: TEdit;
+    procedure ClearButtonClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure startButtonClick(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  quadratfunktionForm: TquadratfunktionForm;
+  a,b,c,x,y:real;
+
+implementation
+function Wurzel (a,b,c:real): real;
+begin
+  result:= sqrt ((b*b)-(4*a*c))
+end;
+
+{$R *.lfm}
+
+{ TquadratfunktionForm }
+
+procedure TquadratfunktionForm.startButtonClick(Sender: TObject);
+begin
+  if (aEdit.text='a') or (bEdit.text='b') or (cEdit.text='c')
+  then ShowMessage ('Bitte Felder vollständig ausfüllen')
+ else begin
+ a:= strtofloat (aEdit.text);
+ b:= strtofloat (bEdit.text);
+ c:= strtofloat (cEdit.text);
+
+ x:= ((-b)+ Wurzel(a,b,c))/2*a;
+ y:= ((-b)- Wurzel(a,b,c))/2*a;
+
+ xLabel.caption:= ('Die erste Nullstelle der Funktion liegt bei x='+ floattostr(x));
+ yLabel.caption:= ('Die zweite Nullstelle der Funktion liegt bei x='+ floattostr(y));
+
+end;
+end;
+
+procedure TquadratfunktionForm.ClearButtonClick(Sender: TObject);
+begin
+  aEdit.text:= 'a';
+  bEdit.text:= 'b';
+  cEdit.text:= 'c';
+ xLabel.caption:= ('');
+ yLabel.caption:= ('');
+end;
+
+procedure TquadratfunktionForm.FormCreate(Sender: TObject);
+begin
+  quadratfunktionForm.color:=clcream;
+end;
+
+end.
+

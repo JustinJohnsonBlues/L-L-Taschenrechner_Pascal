@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="TaschenrechnerProject1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="2" Y="11"/>
+        <UsageCount Value="162"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="taschenrechnerunit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TaschenrechnerForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="TaschenrechnerUnit1"/>
+        <TopLine Value="97"/>
+        <CursorPos X="78" Y="95"/>
+        <UsageCount Value="162"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ggtfunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ZusatzForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="113"/>
+        <CursorPos X="68" Y="27"/>
+        <UsageCount Value="146"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="nullstellenfunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NullstellenForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="109"/>
+        <CursorPos X="68" Y="7"/>
+        <UsageCount Value="134"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="naeherungswertefuerquadratwurzelnfunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NaeherungswerteQuadratwurzelnForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="NaeherungswerteFuerQuadratwurzelnfunit"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="8"/>
+        <CursorPos X="25" Y="29"/>
+        <UsageCount Value="123"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="piunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PIForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PIunit"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="56"/>
+        <CursorPos X="13" Y="73"/>
+        <UsageCount Value="121"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2714"/>
+        <CursorPos Y="2736"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="gnurz.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="236"/>
+        <CursorPos Y="251"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="54" TopLine="44"/>
+      </Position1>
+      <Position2>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="55" TopLine="44"/>
+      </Position2>
+      <Position3>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="56" TopLine="44"/>
+      </Position3>
+      <Position4>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="57" TopLine="44"/>
+      </Position4>
+      <Position5>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="58" TopLine="44"/>
+      </Position5>
+      <Position6>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="59" TopLine="44"/>
+      </Position6>
+      <Position7>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="60" TopLine="44"/>
+      </Position7>
+      <Position8>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="61" TopLine="44"/>
+      </Position8>
+      <Position9>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="62" TopLine="44"/>
+      </Position9>
+      <Position10>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="63" TopLine="44"/>
+      </Position10>
+      <Position11>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="71" Column="25" TopLine="45"/>
+      </Position11>
+      <Position12>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="54" TopLine="45"/>
+      </Position12>
+      <Position13>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="59" Column="21" TopLine="40"/>
+      </Position13>
+      <Position14>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="57" Column="24" TopLine="41"/>
+      </Position14>
+      <Position15>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="6" Column="43" TopLine="6"/>
+      </Position15>
+      <Position16>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="57" Column="25" TopLine="43"/>
+      </Position16>
+      <Position17>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="82" Column="42" TopLine="55"/>
+      </Position17>
+      <Position18>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="62" Column="17" TopLine="47"/>
+      </Position18>
+      <Position19>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="60" Column="42" TopLine="63"/>
+      </Position19>
+      <Position20>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="54" Column="3" TopLine="40"/>
+      </Position20>
+      <Position21>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="73" Column="9" TopLine="60"/>
+      </Position21>
+      <Position22>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="49" Column="11" TopLine="46"/>
+      </Position22>
+      <Position23>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="74" Column="9" TopLine="60"/>
+      </Position23>
+      <Position24>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="61" Column="3" TopLine="40"/>
+      </Position24>
+      <Position25>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="51" Column="13" TopLine="39"/>
+      </Position25>
+      <Position26>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="59" Column="20" TopLine="45"/>
+      </Position26>
+      <Position27>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="61" Column="34" TopLine="45"/>
+      </Position27>
+      <Position28>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="103" Column="57" TopLine="80"/>
+      </Position28>
+      <Position29>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="61" Column="32" TopLine="52"/>
+      </Position29>
+      <Position30>
+        <Filename Value="piunit.pas"/>
+        <Caret Line="58" Column="37" TopLine="43"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

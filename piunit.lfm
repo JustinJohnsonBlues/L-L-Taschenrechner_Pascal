@@ -1,0 +1,62 @@
+object PIForm: TPIForm
+  Left = 370
+  Height = 686
+  Top = 176
+  Width = 543
+  Caption = 'PI'
+  ClientHeight = 686
+  ClientWidth = 543
+  Color = clCream
+  DesignTimePPI = 144
+  LCLVersion = '2.0.4.0'
+  object Memo: TMemo
+    Left = 7
+    Height = 575
+    Top = 8
+    Width = 521
+    Lines.Strings = (
+      'Memo'
+    )
+    TabOrder = 0
+  end
+  object StartButton: TButton
+    Left = 415
+    Height = 38
+    Top = 592
+    Width = 113
+    Caption = 'Start'
+    OnClick = StartButtonClick
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 11
+    Height = 25
+    Top = 600
+    Width = 157
+    Caption = 'Ich möchte 10 hoch'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 288
+    Height = 25
+    Top = 600
+    Width = 106
+    Caption = 'Stellen von pi'
+    ParentColor = False
+  end
+  object SpinEdit: TSpinEdit
+    Left = 184
+    Height = 33
+    Top = 597
+    Width = 75
+    TabOrder = 2
+  end
+  object rechenzeitLabel: TLabel
+    Left = 24
+    Height = 25
+    Top = 645
+    Width = 87
+    Caption = 'Rechenzeit:'
+    ParentColor = False
+  end
+end
